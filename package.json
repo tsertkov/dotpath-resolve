@@ -1,0 +1,33 @@
+{
+  "name": "dotpath-selector",
+  "description": "Dot-path based object property selector engine",
+  "author": "Aleksandr Tsertkov <tsertkov@gmail.com>",
+  "version": "0.0.1",
+  "main": "lib/selectorInterface.js",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/tsertkov/dotpath-selector/blob/master/LICENSE-MIT"
+  },
+  "bugs": {
+    "url": "https://github.com/tsertkov/dotpath-selector/issues"
+  },
+  "scripts": {
+    "test": "node test/selectorInterface.js && jshint lib/ test/ package.json",
+    "jsdoc": "jsdoc --private --destination jsdoc lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tsertkov/dotpath-selector.git"
+  },
+  "keywords": [
+    "walk",
+    "traverse",
+    "dotpath",
+    "dot-path",
+    "selector"
+  ],
+  "devDependencies": {
+    "jsdoc": "^3.3.0-alpha9",
+    "jshint": "^2.5.5"
+  }
+}
