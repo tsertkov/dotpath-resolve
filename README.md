@@ -9,8 +9,8 @@ Dot-path based object property selector.
 
 ## Scripts
 
-- `npm test`
-- `npm run jsdoc`
+- `npm test` - run tests
+- `npm run jsdoc` - build jsdoc
 
 ## License
 
