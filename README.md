@@ -1,15 +1,16 @@
-# dotpath-selector
+# dotpath-resolve
 
-[![Build Status](https://travis-ci.org/tsertkov/dotpath-selector.svg)](https://travis-ci.org/tsertkov/dotpath-selector)
-[![David Status](https://david-dm.org/tsertkov/dotpath-selector.png)](https://david-dm.org/tsertkov/dotpath-selector) 
+[![Build Status](https://travis-ci.org/tsertkov/dotpath-resolve.svg)](https://travis-ci.org/tsertkov/dotpath-resolve)
+[![David Status](https://david-dm.org/tsertkov/dotpath-resolve.png)](https://david-dm.org/tsertkov/dotpath-resolve)
 
 ---
 
-Dot-path based object property selector engine.
+Dot-path based object property selector.
 
-## Testing
+## Scripts
 
-`npm test`
+- `npm test`
+- `npm run jsdoc`
 
 ## License
 
