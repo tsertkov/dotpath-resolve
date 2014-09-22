@@ -13,13 +13,14 @@ testObj = {
   k3: 3,
   k4: null,
   k5: undefined,
-  k6: { k61: { k611: null } }
+  k6: { k61: { k611: null, k666: function(){} } }
 };
 
 testSelectors = [
   // absolute selectors - no startSelector given
 
   ['k1', testObj.k1],
+  ['k6.k61.k666', testObj.k6.k61.k666],
   ['k2', 'k2'],
   ['k3', 3],
   ['k4', null],
@@ -36,6 +37,7 @@ testSelectors = [
 
   ['k2', 'missing', 'k2'],
   ['k2', 'missing.key', 'k2'],
+  ['k1.k12.0.0.k121', 'k1.k12.0.0.k121', 'k1.k12.0.0.k121'],
   ['k1.k12.0.0.k121', 'k6.k61.k611', 'k1.k12.0.0.k121'],
   ['k1.k12.0.0.k121', 'k6.k61.k611.missing.key', 'k1.k12.0.0.k121'],
   ['k12.0.0.k121', 'k1', 'k1.k12.0.0.k121'],
