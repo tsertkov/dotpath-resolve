@@ -13,7 +13,8 @@
   },
   "scripts": {
     "test": "node test/resolve.js && jshint lib/ test/ package.json",
-    "jsdoc": "jsdoc --private --destination jsdoc lib/"
+    "jsdoc": "jsdoc --private --destination jsdoc lib/",
+    "nodemon": "nodemon -w lib/ -w test/ test/resolve.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
   ],
   "devDependencies": {
     "jsdoc": "^3.3.0-alpha9",
-    "jshint": "^2.5.5"
+    "jshint": "^2.5.5",
+    "nodemon": "^1.2.1"
   }
 }
