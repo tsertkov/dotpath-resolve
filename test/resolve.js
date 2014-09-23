@@ -19,6 +19,7 @@ testObj = {
 testSelectors = [
   // absolute selectors - no startSelector given
 
+  ['', testObj],
   ['k1', testObj.k1],
   ['k6.k61.k666', testObj.k6.k61.k666],
   ['k2', 'k2'],
@@ -35,6 +36,8 @@ testSelectors = [
 
   // relative selectors with startSelector given
 
+  ['k2', '', 'k2'],
+  ['', 'k2', 'k2'],
   ['k2', 'missing', 'k2'],
   ['k2', 'missing.key', 'k2'],
   ['k1.k12.0.0.k121', 'k1.k12.0.0.k121', 'k1.k12.0.0.k121'],
