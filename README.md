@@ -11,7 +11,7 @@ Dot-path based object property selector.
 
 - `npm test` - run tests
 - `npm run jsdoc` - build jsdoc
-- `npm run nodemon` - continuously run unit tests
+- `npm run nodemon` - nodemon unit tests
 
 ## License
 
