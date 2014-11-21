@@ -9,20 +9,48 @@
 
 - dot-path object traversal
 - array traversal
-- reversed traversal
+- reverse traversal
 
 ## Usage
 
 ```javascript
 var resolve = require('dotpath-resolve');
 
-// function resolve(obj, selector, startSelector)
-resolve(someobj, 'prop1.prop2');
-resolve(someobj, 'prop2', 'prop1');
-resolve(someobj, '.relative_prop', 'prop1'); // search 'relative_prop' starting from someobj[prop1] upwards
+// object to be searched
+var obj = {
+  k1: {
+    k11: 'k11',
+    k2: 'k1.k2',
+    k3: [1, 2, 3]
+  },
+  k2: 'k2'
+};
+
+resolve(obj, 'k2');       // k2
+resolve(obj, 'k1.k11');   // k11
+resolve(obj, 'k2', 'k1'); // k1.k2
+resolve(obj, 'k1.k3.1');  // 2
+resolve(obj, 'missing');  // undefined
+resolve(obj, 'k2', 'k1.k3.0.missing'); // k1.k2
 ```
 
 All use cases are described in [test code](https://github.com/tsertkov/dotpath-resolve/blob/master/test/resolve.js).
+
+## API
+
+### resolve(obj, selector [, startSelector])
+
+Search given object using dotpath selector and optionally start selector.
+
+**Parameters:**
+
+- *obj* {Object|Array} - Object to be searched
+- *selector* {String} - Dotpath selector
+- [*startSelector*] {String} - Optional search start selector
+
+**Return Values:**
+
+Returns a value of `obj` key specified by given `selector` or `undefined` if a key was not found.
 
 ## Scripts
 
