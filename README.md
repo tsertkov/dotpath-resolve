@@ -34,7 +34,7 @@ resolve(obj, 'missing');  // undefined
 resolve(obj, 'k2', 'k1.k3.0.missing'); // k1.k2
 ```
 
-All use cases are described in [test code](https://github.com/tsertkov/dotpath-resolve/blob/master/test/resolve.js).
+> All use cases are described in [test code](https://github.com/tsertkov/dotpath-resolve/blob/master/test/resolve.js).
 
 ## API
 
