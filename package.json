@@ -12,7 +12,7 @@
     "url": "https://github.com/tsertkov/dotpath-resolve/issues"
   },
   "scripts": {
-    "test": "node test/resolve.js && jshint lib/ test/ package.json",
+    "test": "node test/resolve.js && jshint lib/ test/ example/ package.json",
     "jsdoc": "jsdoc --private --destination jsdoc lib/",
     "nodemon": "nodemon -w lib/ -w test/ test/resolve.js"
   },
