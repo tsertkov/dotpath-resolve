@@ -13,7 +13,8 @@
   },
   "scripts": {
     "test": "node test/resolve.js && jshint lib/ test/ example/ package.json",
-    "jsdoc": "jsdoc --private --destination jsdoc lib/",
+    "cover": "istanbul cover --dir ./artifacts/coverage test/*",
+    "jsdoc": "jsdoc --private --destination artifacts/jsdoc lib/",
     "nodemon": "nodemon -w lib/ -w test/ test/resolve.js"
   },
   "repository": {
@@ -30,6 +31,7 @@
     "selector"
   ],
   "devDependencies": {
+    "istanbul": "^0.3.2",
     "jsdoc": "^3.3.0-alpha9",
     "jshint": "^2.5.5",
     "nodemon": "^1.2.1"

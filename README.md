@@ -59,6 +59,7 @@ Complete API Documentation including private and public methods is generated fro
 ## Scripts
 
 - `npm test` - run tests
+- `npm cover` - build code coverage
 - `npm run jsdoc` - build jsdoc
 - `npm run nodemon` - nodemon unit tests
 
