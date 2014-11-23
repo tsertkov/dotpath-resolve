@@ -13,6 +13,8 @@
 
 ## Usage
 
+All possible use cases are described in [test code](https://github.com/tsertkov/dotpath-resolve/blob/master/test/resolve.js).
+
 ```javascript
 var resolve = require('dotpath-resolve');
 
@@ -34,9 +36,7 @@ resolve(obj, 'missing');  // undefined
 resolve(obj, 'k2', 'k1.k3.0.missing'); // k1.k2
 ```
 
-> All use cases are described in [test code](https://github.com/tsertkov/dotpath-resolve/blob/master/test/resolve.js).
-
-## API
+## Public API
 
 ### resolve(obj, selector [, startSelector])
 
@@ -51,6 +51,10 @@ Search given object using dotpath selector and optionally start selector.
 **Return Values:**
 
 Returns a value of `obj` key specified by given `selector` or `undefined` if a key was not found.
+
+## Private API
+
+Complete API Documentation including private and public methods is generated from source code by JSDoc tool and is [available here](https://s3.eu-central-1.amazonaws.com/tsertkov-artifacts/dotpath-resolve/master/jsdoc/index.html).
 
 ## Scripts
 
