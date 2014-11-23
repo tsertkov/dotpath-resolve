@@ -15,3 +15,5 @@ deploy:
   local-dir: jsdoc
   upload-dir: dotpath-resolve
   acl: public_read
+  on:
+    all_branches: true
