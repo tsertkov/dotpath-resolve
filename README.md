@@ -1,5 +1,7 @@
 # dotpath-resolve
 
+[![NPM](https://nodei.co/npm/dotpath-resolve.png)](https://nodei.co/npm/dotpath-resolve/)
+
 [![Build Status](https://travis-ci.org/tsertkov/dotpath-resolve.svg?branch=master)](https://travis-ci.org/tsertkov/dotpath-resolve)
 [![Coverage Status](https://img.shields.io/coveralls/tsertkov/dotpath-resolve.svg)](https://coveralls.io/r/tsertkov/dotpath-resolve?branch=master)
 [![David Status](https://david-dm.org/tsertkov/dotpath-resolve.png)](https://david-dm.org/tsertkov/dotpath-resolve)
