@@ -16,7 +16,7 @@
     "cover-test": "istanbul cover --dir ./artifacts/coverage test/*",
     "jshint": "jshint lib/ test/ example/ package.json",
     "jsdoc": "jsdoc --private --destination artifacts/jsdoc lib/",
-    "nodemon": "nodemon -w lib/ -w test/ test/resolve.js"
+    "dev": "nodemon -w lib/ -w test/ test/resolve.js"
   },
   "repository": {
     "type": "git",
