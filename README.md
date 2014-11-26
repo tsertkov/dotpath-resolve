@@ -40,7 +40,7 @@ resolve(obj, 'k2', 'k1.k3.0.missing'); // k1.k2
 
 ## Public API
 
-### resolve(obj, selector [, startSelector])
+### resolve(obj, selector, [startSelector])
 
 Search given object using dotpath selector and optionally start selector.
 
