@@ -9,9 +9,10 @@ notifications:
     secure: jOhhMsUyxLgjn8ckB5fMp4Hrw6ZTKG9EnLBaj2CEVG2cfTnjH2O+E8REtDWTmItzlyJJne1BNzC4Mqygbs/Og0xNtnBJdpEXDxH9ouo+MRr6CUlZRTYQLy7NhF9FbWujcNlmBK55SNvABfc/vuiJlhq8uAsl2g09AH3ujbh3p0Q=
 deploy:
 - provider: s3
-  access_key_id: AKIAJ26WU3ZV2SHW7KDA
+  access_key_id:
+   secret: NfkcUUWHRqNUxXwqLIsnaxwImmzXBZtkbE4DkkwCEvpnoNdmE5vt4OKFPFQxMXyHkOM9SWghaDAYyp/PmHenEAmEtNEfT4vyBdKDnvZPBqwGwxQn4C6cJdHVxWHF0L3HT5pOJVbhJkOli9oHh4y0hXp2xlcR6PNrJXXaoc4Odec=
   secret_access_key:
-    secure: YOQ51yHgTBNneO4XWBkQCtJWegC0r3Mij4nEupG4rhUyckdSCc0RVJxOUBd+N550S9m5tOq4IKN51kD41twRnYIrZthn5WZu3vxu2yVdOGA6bvPvmFzFliq0qXd8YNjWGU7QxwVczMJcH+aubjCGDNT4fGUiOAQk3Ro9gScAv10=
+    secure: US+0riApTPSNg8HjBGJ7Nj+HxGfkoaAAUkhoJEGulSx/hBYUTfg8LmndI5KVcQGCC5GAU7mwlUsjfb2pLVl4HIGf3rOKawh8zSiReB9o+gdqSgAMLiCleFIKn8Eo16Czac5ohTyU9+LUfFdvLMeGL9XMcPn9kaGjmSFa9b+LOHc=
   bucket: tsertkov-artifacts
   local-dir: artifacts
   upload-dir: dotpath-resolve/master
@@ -22,9 +23,10 @@ deploy:
   on:
     branch: master
 - provider: s3
-  access_key_id: AKIAJ26WU3ZV2SHW7KDA
+  access_key_id:
+   secret: NfkcUUWHRqNUxXwqLIsnaxwImmzXBZtkbE4DkkwCEvpnoNdmE5vt4OKFPFQxMXyHkOM9SWghaDAYyp/PmHenEAmEtNEfT4vyBdKDnvZPBqwGwxQn4C6cJdHVxWHF0L3HT5pOJVbhJkOli9oHh4y0hXp2xlcR6PNrJXXaoc4Odec=
   secret_access_key:
-    secure: YOQ51yHgTBNneO4XWBkQCtJWegC0r3Mij4nEupG4rhUyckdSCc0RVJxOUBd+N550S9m5tOq4IKN51kD41twRnYIrZthn5WZu3vxu2yVdOGA6bvPvmFzFliq0qXd8YNjWGU7QxwVczMJcH+aubjCGDNT4fGUiOAQk3Ro9gScAv10=
+    secure: US+0riApTPSNg8HjBGJ7Nj+HxGfkoaAAUkhoJEGulSx/hBYUTfg8LmndI5KVcQGCC5GAU7mwlUsjfb2pLVl4HIGf3rOKawh8zSiReB9o+gdqSgAMLiCleFIKn8Eo16Czac5ohTyU9+LUfFdvLMeGL9XMcPn9kaGjmSFa9b+LOHc=
   bucket: tsertkov-artifacts
   local-dir: artifacts
   upload-dir: dotpath-resolve/develop
