@@ -10,7 +10,7 @@ notifications:
 deploy:
 - provider: s3
   access_key_id:
-   secret: NfkcUUWHRqNUxXwqLIsnaxwImmzXBZtkbE4DkkwCEvpnoNdmE5vt4OKFPFQxMXyHkOM9SWghaDAYyp/PmHenEAmEtNEfT4vyBdKDnvZPBqwGwxQn4C6cJdHVxWHF0L3HT5pOJVbhJkOli9oHh4y0hXp2xlcR6PNrJXXaoc4Odec=
+    secure: GMqe2pgClhe0n/KxllwNzK3G50uKzuI5NA9DF3jj9vIvqko12RoZmLzAYRsugeA39kmrO+MqAlQtJPkVaWJAQu/2Hv/wlb+fBlWBYJbWx8k9pKXokr3L2ao8MPmL5Mq6BQ4M/fXnHlug19XDaruqC8ypxiyjxPF6KTnv+ZsqHbo=
   secret_access_key:
     secure: US+0riApTPSNg8HjBGJ7Nj+HxGfkoaAAUkhoJEGulSx/hBYUTfg8LmndI5KVcQGCC5GAU7mwlUsjfb2pLVl4HIGf3rOKawh8zSiReB9o+gdqSgAMLiCleFIKn8Eo16Czac5ohTyU9+LUfFdvLMeGL9XMcPn9kaGjmSFa9b+LOHc=
   bucket: tsertkov-artifacts
@@ -24,7 +24,7 @@ deploy:
     branch: master
 - provider: s3
   access_key_id:
-   secret: NfkcUUWHRqNUxXwqLIsnaxwImmzXBZtkbE4DkkwCEvpnoNdmE5vt4OKFPFQxMXyHkOM9SWghaDAYyp/PmHenEAmEtNEfT4vyBdKDnvZPBqwGwxQn4C6cJdHVxWHF0L3HT5pOJVbhJkOli9oHh4y0hXp2xlcR6PNrJXXaoc4Odec=
+    secure: GMqe2pgClhe0n/KxllwNzK3G50uKzuI5NA9DF3jj9vIvqko12RoZmLzAYRsugeA39kmrO+MqAlQtJPkVaWJAQu/2Hv/wlb+fBlWBYJbWx8k9pKXokr3L2ao8MPmL5Mq6BQ4M/fXnHlug19XDaruqC8ypxiyjxPF6KTnv+ZsqHbo=
   secret_access_key:
     secure: US+0riApTPSNg8HjBGJ7Nj+HxGfkoaAAUkhoJEGulSx/hBYUTfg8LmndI5KVcQGCC5GAU7mwlUsjfb2pLVl4HIGf3rOKawh8zSiReB9o+gdqSgAMLiCleFIKn8Eo16Czac5ohTyU9+LUfFdvLMeGL9XMcPn9kaGjmSFa9b+LOHc=
   bucket: tsertkov-artifacts
