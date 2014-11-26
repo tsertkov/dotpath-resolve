@@ -3,7 +3,6 @@ node_js:
 - '0.10'
 after_success:
 - npm run jsdoc
-- npm run cover
 - cat artifacts/coverage/lcov.info | node_modules/coveralls/bin/coveralls.js
 notifications:
   slack:
