@@ -54,14 +54,6 @@ Search given object using dotpath selector and optionally start selector.
 
 Returns a value of `obj` key specified by given `selector` or `undefined` if a key was not found.
 
-## Private API
-
-Complete API Documentation including private and public methods is generated from source code by JSDoc tool and is [available here](https://s3.eu-central-1.amazonaws.com/tsertkov-artifacts/dotpath-resolve/master/jsdoc/index.html).
-
-## Code coverage
-
-Code coverage report for all files is [available here](https://s3.eu-central-1.amazonaws.com/tsertkov-artifacts/dotpath-resolve/master/coverage/lcov-report/index.html).
-
 ## Scripts
 
 - `npm test` - run tests
