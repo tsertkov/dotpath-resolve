@@ -1,3 +1,5 @@
+⛔️ DEPRECATED
+
 # dotpath-resolve
 
 [![NPM](https://nodei.co/npm/dotpath-resolve.png)](https://nodei.co/npm/dotpath-resolve/)
